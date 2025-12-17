@@ -384,13 +384,13 @@ class DummyStrategy5:
 """Change here the variable YourStrategyName with your team name"""
 
 try:
-    from mystrat import YourStrategyName
-    strategyA = YourStrategyName()
+    from mystrat import Fujin
+    strategyA = Fujin()
 except ImportError:
     strategyA = DummyStrategy5()
 
 try:
-    from mystrat import Strategy2 as ParticipantStrategyB
+    from mystrat import MyStrategy as ParticipantStrategyB
     strategyB = ParticipantStrategyB()
 except ImportError:
     strategyB = DummyStrategy2()

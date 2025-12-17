@@ -1,6 +1,6 @@
 import numpy as np
 
-class YourStrategyName:
+class Fujin:
     """
     Implements a highly reactive strategy using the previous game's Equity-Normalized 
     Aggression (V-Factor) adjusted by long-term Looseness and a Hand Weakness bonus.
